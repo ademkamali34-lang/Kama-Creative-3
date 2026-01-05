@@ -26,7 +26,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="flex flex-col items-center"
           >
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[0.9] text-white mb-8 tracking-tighter text-center">
+            <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold leading-[0.9] text-white mb-8 tracking-tighter text-center">
               Markanızın <br />
               <span className="font-expressive italic font-normal text-gradient-primary">Geleceğini</span> <br />
               Tasarlıyoruz
@@ -36,10 +36,10 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="rounded-full px-6 py-5 text-base bg-primary hover:bg-primary/90 text-white font-medium cursor-pointer">
+              <Button size="lg" className="rounded-full px-8 py-6 text-lg bg-primary hover:bg-primary/90 text-white font-medium">
                 Projelerimizi Keşfedin
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-6 py-5 text-base border-white/20 text-white hover:bg-white/10 hover:text-white cursor-pointer">
+              <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg border-white/20 text-white hover:bg-white/10 hover:text-white">
                 Bize Ulaşın
               </Button>
             </div>
