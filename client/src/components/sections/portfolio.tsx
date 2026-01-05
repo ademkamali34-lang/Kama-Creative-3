@@ -10,7 +10,7 @@ const projects = [
     title: "Newada Kampanya",
     category: "Reklam & Prodüksiyon",
     image: img1,
-    size: "large"
+    size: "small"
   },
   {
     id: 2,
@@ -69,9 +69,7 @@ export default function Portfolio() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className={`group relative overflow-hidden rounded-xl cursor-pointer ${
-                project.size === "large" ? "md:row-span-2 aspect-[16/10]" : "aspect-[16/11]"
-              }`}
+              className="group relative overflow-hidden rounded-xl cursor-pointer aspect-[16/10]"
             >
               <img 
                 src={project.image} 
