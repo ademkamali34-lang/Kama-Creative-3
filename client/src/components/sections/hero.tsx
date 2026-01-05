@@ -25,9 +25,6 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h2 className="text-primary font-medium tracking-widest uppercase mb-4 text-sm md:text-base">
-              KAMA Creative Agency
-            </h2>
             <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold leading-[0.9] text-white mb-8 tracking-tighter">
               Markanızın <br />
               <span className="font-expressive italic font-normal text-gradient-primary">Geleceğini</span> <br />
