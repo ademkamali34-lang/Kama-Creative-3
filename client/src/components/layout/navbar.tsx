@@ -33,8 +33,13 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-display font-bold tracking-tighter text-white hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex flex-col hover:opacity-80 transition-opacity">
+          <span className="text-2xl font-display font-bold tracking-tighter text-white">
             KAMA<span className="text-primary">.</span>
+          </span>
+          <span className="text-[10px] font-medium tracking-[0.2em] text-primary uppercase -mt-1">
+            Creative Agency
+          </span>
         </Link>
 
         {/* Desktop Nav */}
