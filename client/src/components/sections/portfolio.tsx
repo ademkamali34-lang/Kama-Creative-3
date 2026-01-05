@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import img1 from "@assets/6990af236536969.Y3JvcCwxOTIwLDE1MDEsMCww_1767601066645.jpg";
-import img2 from "@assets/2468fb222333973.Y3JvcCwzODE1LDI5ODQsMCww_1767601071185.jpg";
+import img2 from "@assets/6b0bce129988705.6176e1909fcf4_1767601544418.gif";
 import img3 from "@assets/kadi_1767601086004.png";
 import img4 from "@assets/m_1767601094119.jpg";
 
