@@ -36,10 +36,10 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="rounded-full px-8 py-6 text-lg bg-primary hover:bg-primary/90 text-white font-medium">
+              <Button size="lg" className="rounded-full px-6 py-5 text-base bg-primary hover:bg-primary/90 text-white font-medium cursor-pointer">
                 Projelerimizi Keşfedin
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg border-white/20 text-white hover:bg-white/10 hover:text-white">
+              <Button size="lg" variant="outline" className="rounded-full px-6 py-5 text-base border-white/20 text-white hover:bg-white/10 hover:text-white cursor-pointer">
                 Bize Ulaşın
               </Button>
             </div>
