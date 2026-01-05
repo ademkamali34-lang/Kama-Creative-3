@@ -10,7 +10,7 @@ export default function Footer() {
               KAMA<span className="text-primary">.</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Markanızın hikayesini geleceğin diliyle anlatıyoruz. Sınırları zorlayan, yenilikçi kreatif ajans.
+              KAMA Creative olarak, markanızın dijital dünyada öne çıkmasını sağlayan stratejik, estetik ve yenilikçi çözümler üretiyoruz.
             </p>
           </div>
           
