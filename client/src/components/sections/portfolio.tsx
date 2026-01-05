@@ -1,35 +1,35 @@
 import { motion } from "framer-motion";
-import img1 from "@assets/stock_images/minimalist_luxury_br_40e4a6c6.jpg";
-import img2 from "@assets/stock_images/modern_abstract_3d_g_0590a05d.jpg";
-import img3 from "@assets/stock_images/high_fashion_editori_ad1ab1f7.jpg";
-import img4 from "@assets/stock_images/modern_architectural_6326b14d.jpg";
+import img1 from "@assets/6990af236536969.Y3JvcCwxOTIwLDE1MDEsMCww_1767601066645.jpg";
+import img2 from "@assets/2468fb222333973.Y3JvcCwzODE1LDI5ODQsMCww_1767601071185.jpg";
+import img3 from "@assets/kadi_1767601086004.png";
+import img4 from "@assets/m_1767601094119.jpg";
 
 const projects = [
   {
     id: 1,
-    title: "Lumina Kozmetik",
-    category: "Marka Kimliği",
+    title: "Newada Kampanya",
+    category: "Reklam & Prodüksiyon",
     image: img1,
     size: "large"
   },
   {
     id: 2,
-    title: "Nova Tech",
-    category: "3D Tasarım",
+    title: "Braxis Fren Sistemleri",
+    category: "Dijital Pazarlama",
     image: img2,
     size: "small"
   },
   {
     id: 3,
-    title: "Vogue Dergi",
-    category: "Moda Çekimi",
+    title: "Kraftvoll Performans",
+    category: "Kreatif Kampanya",
     image: img3,
     size: "small"
   },
   {
     id: 4,
-    title: "Urban Loft",
-    category: "Mimari Konsept",
+    title: "Eurocell Enerji",
+    category: "Marka Kimliği",
     image: img4,
     size: "large"
   }
@@ -70,18 +70,18 @@ export default function Portfolio() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
               className={`group relative overflow-hidden rounded-xl cursor-pointer ${
-                project.size === "large" ? "md:row-span-2 aspect-[4/5]" : "aspect-[4/3]"
+                project.size === "large" ? "md:row-span-2 aspect-[16/10]" : "aspect-[16/11]"
               }`}
             >
               <img 
                 src={project.image} 
                 alt={project.title} 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span className="text-primary text-sm uppercase tracking-wider mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-100">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+                <span className="text-primary text-sm uppercase tracking-wider mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-100 font-bold">
                   {project.category}
                 </span>
                 <h3 className="text-3xl font-display font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
