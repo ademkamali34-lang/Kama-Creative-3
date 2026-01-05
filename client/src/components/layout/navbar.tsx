@@ -33,8 +33,8 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-display font-bold tracking-tighter text-white hover:opacity-80 transition-opacity">
-            KAMA<span className="text-primary">.</span>
+        <Link href="/" className="text-xl font-display font-bold tracking-tighter text-white hover:opacity-80 transition-opacity">
+            WE DESIGN YOUR FUTURE<span className="text-primary">.</span>
         </Link>
 
         {/* Desktop Nav */}

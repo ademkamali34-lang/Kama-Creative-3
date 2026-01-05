@@ -29,9 +29,9 @@ export default function Hero() {
               KAMA Creative Agency
             </h2>
             <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold leading-[0.9] text-white mb-8 tracking-tighter">
-              Sınırların <br />
-              <span className="font-expressive italic font-normal text-gradient-primary">Ötesinde</span> <br />
-              Yaratıcılık
+              Markanızın <br />
+              <span className="font-expressive italic font-normal text-gradient-primary">Geleceğini</span> <br />
+              Tasarlıyoruz
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
               Markanızın hikayesini, sanat ve teknolojinin kesişim noktasında yeniden kurguluyoruz. 
