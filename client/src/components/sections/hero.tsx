@@ -18,23 +18,24 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 px-6 pt-20">
-        <div className="max-w-4xl">
+      <div className="container relative z-10 px-6 pt-20 flex flex-col items-center text-center">
+        <div className="max-w-5xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            className="flex flex-col items-center"
           >
-            <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold leading-[0.9] text-white mb-8 tracking-tighter">
+            <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-bold leading-[0.9] text-white mb-8 tracking-tighter text-center">
               Markanızın <br />
               <span className="font-expressive italic font-normal text-gradient-primary">Geleceğini</span> <br />
               Tasarlıyoruz
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed text-center">
               KAMA Creative olarak, markanızın dijital dünyada öne çıkmasını sağlayan stratejik, estetik ve yenilikçi çözümler üretiyoruz.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="rounded-full px-8 py-6 text-lg bg-primary hover:bg-primary/90 text-white font-medium">
                 Projelerimizi Keşfedin
               </Button>
