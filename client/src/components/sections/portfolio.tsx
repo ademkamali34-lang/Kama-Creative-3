@@ -31,7 +31,7 @@ const projects = [
     title: "Eurocell Enerji",
     category: "Marka Kimliği",
     image: img4,
-    size: "large"
+    size: "small"
   }
 ];
 
