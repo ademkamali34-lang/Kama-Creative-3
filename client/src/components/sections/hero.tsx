@@ -31,8 +31,7 @@ export default function Hero() {
               Tasarlıyoruz
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-              Markanızın hikayesini, sanat ve teknolojinin kesişim noktasında yeniden kurguluyoruz. 
-              Cesur fikirler, kusursuz uygulama.
+              KAMA Creative olarak, markanızın dijital dünyada öne çıkmasını sağlayan stratejik, estetik ve yenilikçi çözümler üretiyoruz.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
