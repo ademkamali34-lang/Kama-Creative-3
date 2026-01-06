@@ -31,15 +31,15 @@ export default function Hero() {
               <span className="font-expressive italic font-normal text-gradient-primary">Geleceğini</span> <br />
               Tasarlıyoruz
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed text-center">
+            <p className="text-base md:text-lg text-muted-foreground max-w-2xl mb-10 leading-relaxed text-center">
               KAMA Creative olarak, markanızın dijital dünyada öne çıkmasını sağlayan stratejik, estetik ve yenilikçi çözümler üretiyoruz.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="rounded-full px-8 py-6 text-lg bg-primary hover:bg-primary/90 text-white font-medium">
+              <Button size="lg" className="rounded-full px-8 py-6 text-base bg-primary hover:bg-primary/90 text-white font-medium">
                 Projelerimizi Keşfedin
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg border-white/20 text-white hover:bg-white/10 hover:text-white">
+              <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-base border-white/20 text-white hover:bg-white/10 hover:text-white">
                 Bize Ulaşın
               </Button>
             </div>
