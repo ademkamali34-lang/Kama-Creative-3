@@ -20,6 +20,7 @@ export default function Navbar() {
     { name: "Hakkımızda", href: "#about" },
     { name: "Hizmetler", href: "#services" },
     { name: "Projeler", href: "#portfolio" },
+    { name: "Blog", href: "/blog/" },
     { name: "İletişim", href: "#contact" },
   ];
 
